@@ -1,9 +1,3 @@
-8. 
-from math import*
-print("Kütusekulu arvitamine")
-
-
-
 
 
 
@@ -67,3 +61,22 @@ print()
 
 
 
+8. 
+from math import*
+print("Kütusekulu arvitamine")
+l=float(input("Kasutaja sisetab tingitud kütsite liitrid"))
+km=float(input("Kasutaja sisetab läbitud kilomeetrid"))
+p=l/km*100
+print (str(f"vastus: {p}l/km"))
+print()
+
+
+9.
+from math import*
+print("Rulluisutajad")
+print("Rulluisutaja keskminekiiruson 29,9km/h")
+m=24/60
+t=m*29,9
+t=round(t,2)
+print(f"Vastus: {t}km")
+print()
